@@ -66,7 +66,7 @@ scanner.close();
 	}
 	
 	private static boolean checkVictory(Faction faction,int num) {
-		return faction.getNumberOfResourceGenerators()==num;
+		return faction.getNumberOfResourceGenerators()>=num;
 	}
 	
 	
